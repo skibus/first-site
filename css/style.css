@@ -2,10 +2,11 @@ body{
 background-color:black;
 color:white;
 }
+
 h1{
 color:white;
 justify-content:center;
-display:flex
+display:flex;
 }
 
 nav{
@@ -18,9 +19,29 @@ margin-left: 200px;
 
 #img{
 justify-content:center;
-display:flex
+display:flex;
 }
 
 footer{
 text-align:center
+}
+
+input[type=text]{
+margin-top: 6px;
+width:25%;
+border:1px solid yellow;
+flex-direction:column;
+display:flex;
+}
+
+input[type=submit]{
+background-color:lightgrey;
+}
+
+input[type=submit]:hover {
+background-color:grey;
+}
+textarea {
+margin-top: 6px;
+width:100%;
 }
